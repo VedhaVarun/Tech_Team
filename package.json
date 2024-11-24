@@ -1,0 +1,29 @@
+{
+  "name": "mcf-platform",
+  "version": "1.0.0",
+  "description": "MCF Integration Platform",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/api/server.js",
+    "dev": "concurrently \"npm run dev:services\" \"npm run dev:frontend\"",
+    "dev:services": "ts-node-dev --respawn ./src/api/server.ts",
+    "dev:frontend": "cd src/frontend && npm start"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongodb": "^5.1.0",
+    "redis": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.10.1",
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.15.11",
+    "concurrently": "^8.0.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.4"
+  }
+}
