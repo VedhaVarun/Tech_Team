@@ -209,7 +209,7 @@ Need more help? Create an issue with:
 - Docker and MongoDB teams
 
 ## Deployment Link of the Project : 
-[https://famous-starburst-ead7c9.netlify.app/]((https://famous-starburst-ead7c9.netlify.app/) 
+[https://famous-starburst-ead7c9.netlify.app/]
 
 ---
 Made with ❤️ by Team Tech
